@@ -1,0 +1,319 @@
+html, body {
+	height: 100%;
+	color: #444;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: helvetica;
+}
+
+
+
+
+/*#header-caption {
+	font-family: 'PT Serif', serif;
+}*/
+
+header {
+
+	
+
+	background: 
+
+	linear-gradient(to left, transparent, white 100%), 
+	             url(./images/happy-family.jpg);
+
+	box-shadow: inset -46px 0px 63px 0px rgba(255,255,255,1);
+
+	background-repeat: no-repeat;
+
+	background-attachment: left;
+	
+	background-position: center;
+	background-size: cover;
+
+	height: 40em;
+	/*height: 80vh;*/
+	/*height: 90%*/
+
+	/*height: 100%;*/
+	width: 80%;
+	margin: 0 auto;
+
+	/*width: 100%;*/
+
+	/*color: white;*/
+	/*box-shadow: inset 450px 00px 500px 50px #FFF;*/
+
+
+}
+
+#header-elements {
+	padding-top: 5rem;
+
+}
+
+#header-h1 h1 {
+		/*font-family: 'helvetica';*/
+	
+	font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
+   	
+    /*margin-bottom: 5rem;*/
+
+    font-size: 3rem;
+
+
+}
+
+#find-lost-pet-button {
+	background-color: #C8252C;
+	/*margin: 4rem;*/
+	/*margin: 0 auto;*/
+	margin-left: 15px;
+		box-shadow: 2px 4px 5px rgba(0,0,0,0.1);
+
+}
+
+#header-p {
+
+	font-size: 24px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
+	
+	margin-top: 2rem;
+    margin-bottom: 4rem;
+
+}
+
+#header-p p {
+	font-size: 1.6rem;
+}
+
+/*#header-caption {
+	padding-top: 4rem;
+}*/
+
+
+#header-caption h1{
+
+	/*margin-bottom: 50px;*/
+	
+	font-family: 'helvetica';
+	/*padding-top: 2em;*/
+
+
+    text-transform: uppercase;
+
+	font-weight: 800;
+
+/*	text-shadow: 
+						4px 4px 2px rgba(0,0,0,.4), 
+					8px 8px 13px rgba(0,0,0,.1),
+						18px 18px 23px rgba(0,0,0,.1);*/
+
+
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
+
+	
+/*	display: inline-block;
+    width: 26em;
+	padding-top: 10em;*/
+
+/*	text-align: center;
+*/}
+
+#header-caption a {
+	    /*margin-top: 5em;*/
+	    /*margin-left: 3em;*/
+
+}
+
+#header-caption p {
+	font-size: 24px;
+	    
+
+	    /*padding-right: 6rem;
+
+
+	    padding-top: 2rem;
+*/
+}
+
+#section-two {
+	/*padding: 100px;*/
+	background:
+	 /*#d7df9a;*/
+	/*#e7ebc4;*/
+	/*#f4f5e3;*/
+	/*#edf5e3;*/
+	#e4f7d4;
+	padding: 1.5rem;
+}
+
+#section-two h6 {
+	margin: 0;
+	font-weight: bold;
+	color: #18681f;
+	font-size: 1.1rem
+}
+
+/*LOST ANF FOUND*/
+
+#lost-and-found {
+	padding-top: 1rem;
+	background: #f8fafd;
+
+}
+
+#lost-and-found h2 {
+	font-family: 'PT Serif', serif;
+	font-weight: bold;
+
+}
+
+#lost-and-found p {
+	text-align: center;
+	margin: 0 2rem;
+}
+
+
+
+.lost-and-found-images {
+	padding: 0 4rem;
+}
+
+
+
+#section-three {
+	padding-top: 1rem;
+
+	/*background: #f9f9f9;*/
+	/*background: #d0cfcf75;*/
+
+					/*this is the background color*/
+
+					/*background: #f8fafd;*/
+
+
+	padding-bottom: 2rem;
+
+	/*font-family: 'georgia', serif;*/
+
+
+
+}
+
+#section-three h2 {
+	font-family: 'PT Serif', serif;
+}
+
+
+
+
+
+
+
+footer {
+	padding: 2rem;
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+
+	/*width: 100%;*/
+	text-align: center;
+}
+
+footer h4 {
+		color:  #8f9296;
+		/*font-size: 1.5rem;*/
+		margin: 0;
+
+}
+
+#footer-links {
+	padding: 1rem;
+}
+
+#footer-elements p {
+	color: #8f9296;
+}
+
+#footer-elements a {
+	color: whitesmoke;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 1rem;
+}
+
+
+/*need to reclassify this*/
+.round-img-fluid {
+	padding: 1rem;
+}
+
+
+
+#nav-border {
+	border-bottom: solid 1px lightgray;
+}
+
+
+
+.tip-box {
+	padding: 1rem;
+}
+
+.tip-box p {
+	font-size: 18px;
+}
+
+#section-three-button {
+	background-color: #C8252C;
+	/*margin: 3rem;*/
+	/*padding: 0.5rem 10rem;*/
+	/*padding: .75rem 10rem;*/
+	box-shadow: 2px 4px 5px rgba(0,0,0,0.1);
+
+}
+
+
+
+/* in the hambuger makes the button full width*/
+
+/*max width means this and smaller*/
+@media (max-width: 768px) {
+	.buttonBlock {
+		/*width: 100%;*/
+		display: block;
+	}
+/*	#header-caption {
+		text-align: center;
+
+	}*/
+	/*#find-lost-pet-button {
+	background-color: #C8252C;
+			text-align: center;
+
+	
+	}*/
+
+	header {
+		width: 100%;
+		box-shadow: none;
+		/*text-align: center;*/
+	}
+
+	#header-p {
+		margin-top: 0;
+	}
+
+	#section-three h5{
+    	margin-top: 2rem;
+    	
+	}
+
+
+
+
+
+
+
+}
