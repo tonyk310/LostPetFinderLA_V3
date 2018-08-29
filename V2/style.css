@@ -42,7 +42,19 @@ header {
 
 	/*color: white;*/
 	/*box-shadow: inset 450px 00px 500px 50px #FFF;*/
+}
 
+#about-us {
+	background: url(./images/kissing-dog.jpg);
+	background-attachment: center;
+	height: 40rem;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*width: 80%;*/
+	
+	/*flip over y axis*/
+	-webkit-transform: scaleX(-1);
 
 }
 
@@ -146,7 +158,7 @@ header {
 	/*#f4f5e3;*/
 	/*#edf5e3;*/
 	#e4f7d4;
-	padding: 1.25rem;
+	padding: 1rem;
 }
 
 #section-two h6 {
@@ -168,11 +180,17 @@ header {
 #lost-and-found h2 {
 	font-family: 'PT Serif', serif;
 	font-weight: bold;
+	padding-bottom: 1rem;
+}
 
+#lost-and-found h3 {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 28px;
 }
 
 #lost-and-found hr {
-	margin-bottom: 2rem;
+	/*margin-bottom: 2rem;*/
 
 }
 
@@ -184,15 +202,21 @@ header {
 
 
 .lost-and-found-images {
-	padding: 0 4rem;
+	/*padding: 0 4rem;*/
+	height: 120px;
+	width: 120px;
+	display: block;
+	margin: 0 auto;
 }
 
 #lost-and-found-button {
 	padding-left: 4rem;
     padding-right: 4rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    background-color: #C8252C;
 
 }
+
 
 
 
@@ -224,6 +248,7 @@ header {
 	background-color: #f6f9fe;
 	padding-top: 4rem;
 	text-align:center;
+
 	
 
 }
@@ -306,6 +331,8 @@ footer h4 {
 	box-shadow: 2px 4px 5px rgba(0,0,0,0.1);
 
 }
+
+
 
 
 
