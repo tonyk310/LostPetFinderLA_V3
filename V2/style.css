@@ -44,8 +44,15 @@ header {
 	/*box-shadow: inset 450px 00px 500px 50px #FFF;*/
 }
 
-#about-us {
-	background: url(./images/kissing-dog.jpg);
+#free-ebook {
+
+	background:
+	linear-gradient(to left, transparent, white 100%), 
+	             url(./images/kissing-dog.jpg);
+
+ 	box-shadow: inset -46px 0px 63px 0px rgba(255,255,255,1);
+
+	 
 	background-attachment: center;
 	height: 40rem;
 	background-position: center;
