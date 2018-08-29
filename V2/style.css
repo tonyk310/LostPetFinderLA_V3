@@ -146,7 +146,7 @@ header {
 	/*#f4f5e3;*/
 	/*#edf5e3;*/
 	#e4f7d4;
-	padding: 1.5rem;
+	padding: 1.25rem;
 }
 
 #section-two h6 {
@@ -159,7 +159,7 @@ header {
 /*LOST ANF FOUND*/
 
 #lost-and-found {
-	padding-top: 1rem;
+	padding: 1rem 0;
 	background: #f8fafd;
 
 }
@@ -167,6 +167,7 @@ header {
 #lost-and-found h2 {
 	font-family: 'PT Serif', serif;
 	font-weight: bold;
+	margin-bottom: 2rem;
 
 }
 
@@ -179,6 +180,13 @@ header {
 
 .lost-and-found-images {
 	padding: 0 4rem;
+}
+
+#lost-and-found-button {
+	padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 2rem;
+
 }
 
 
@@ -207,7 +215,21 @@ header {
 }
 
 
+#people-love-LPF {
+	background-color: #f6f9fe;
+	
 
+}
+
+#people-love-LPF h2 {
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+}
+
+.twitter-bird {
+	color: #1da1f2;
+	text-align: center;
+}
 
 
 
