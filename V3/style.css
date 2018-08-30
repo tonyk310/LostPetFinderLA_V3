@@ -244,13 +244,26 @@ header {
 
 #why-use h2 {
 	margin-bottom: 3rem;
-	font-family: georgia;
-	font-weight: bold;
+	
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+
+#why-use-padded-container {
+	padding-right: 7rem;
+    padding-left: 7rem;
 }
 
 .why-use-icon {
 	width: 64px;
 	text-align: center;
+}
+
+#free-ebook {}
+
+#ebook-elements {
+	border: 4px solid pink;
+	/*background: salmon;*/
 }
 
 
