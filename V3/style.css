@@ -65,8 +65,7 @@ header {
 }
 
 #signup {
-	text-align: center;
-    margin-top: 8rem;
+
 }
 
 #header-elements {
@@ -183,7 +182,7 @@ header {
 
 #lost-and-found {
 	padding-top: 1rem;
-	padding-bottom: 2rem;
+	/*padding-bottom: 2rem;*/
 	background: #f8fafd;
 
 }
@@ -205,6 +204,7 @@ header {
 
 #lost-and-found hr {
 	margin-top: 4rem;
+	margin-bottom: 0;
 
 }
 
@@ -238,8 +238,9 @@ header {
 
 
 #why-use {
-	background: #f8fafd; 
+	/*background: #f8fafd; */
 	padding-bottom: 3rem;
+	padding-top: 3rem;
 }
 
 #why-use h2 {
@@ -262,8 +263,17 @@ header {
 #free-ebook {}
 
 #ebook-elements {
-	border: 4px solid pink;
+	padding-top: 8rem;
+	font-family: 'PT Serif', serif;
+	font-weight: bold;
+	/*background: pink;*/
+	height: 40em;
+	/*border: 4px solid pink;*/
 	/*background: salmon;*/
+}
+
+#ebook-elements h3 {
+	font-weight: bold;
 }
 
 
@@ -291,10 +301,55 @@ header {
 }
 
 
+#map {
+	background: url(./images/map-los-angeles.png);
+	background-repeat: no-repeat;
+	background-attachment: left;
+	background-position: center;
+	background-size: cover;
+	height: 40em;
+}
+
+#map span {
+    display: block;
+    height: 40em;
+    background: rgba(0,0,0,0.1);
+}
+
+#map span:hover {
+    display: block;
+    height: 40em;
+    background: none;
+}
+
+#map h2 {
+	text-align: center;
+	font-weight: bold;
+	font-family: 'PT Serif', serif;
+	padding-top: 5rem;
+}
+
+#map-button {
+	margin-top: 32rem;
+	text-transform: capitalize;	
+	/*padding:1rem;*/
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+
+
+
+
+
+
+
+
 #people-love-LPF {
 	background-color: #f6f9fe;
 	padding-top: 4rem;
 	text-align:center;
+    padding-bottom: 4rem;
 
 	
 
@@ -417,10 +472,38 @@ footer h4 {
     	
 	}
 
+	#map-button {
+	margin-top: 32rem;
+	text-transform: capitalize;	
+	/*padding:1rem;*/
+/*	padding-left: 2rem;
+	padding-right: 2rem;*/
+	display: block;
+	}
 
+	#free-ebook {
 
+		box-shadow: none;
+		width: 100%;
+		text-align: center;
+	}
 
+	#map {
+		width: 100%;
 
+	}
 
+	#why-use-padded-container {
+		padding: 1rem;
+		text-align: center;
+	}
+	
+	#ebook-elements {
+		/*text-align: center;*/
+	}
+	
+	#ebook-elements-button {
+		display: block;
+	}
 
 }
