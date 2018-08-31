@@ -14,8 +14,13 @@ html, body {
 
 header {
 
-	
 
+	background: 
+
+	-webkit-linear-gradient(right, rgba(255,255,255,0.001), white 100%);
+	background: 
+
+	-o-linear-gradient(right, transparent, white 100%);
 	background: 
 
 	linear-gradient(to left, transparent, white 100%), 
@@ -263,7 +268,7 @@ header {
 #free-ebook {}
 
 #ebook-elements {
-	padding-top: 8rem;
+	padding-top: 11rem;
 	font-family: 'PT Serif', serif;
 	font-weight: bold;
 	/*background: pink;*/
