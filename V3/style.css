@@ -325,12 +325,17 @@ header {
     display: block;
     height: 40em;
     background: rgba(0,0,0,0.1);
+    opacity: 1;
 }
 
 #map span:hover {
     display: block;
     height: 40em;
     background: none;
+    opacity: 0;
+    transition: 1s;
+
+
 }
 
 #map h2 {
@@ -341,11 +346,12 @@ header {
 }
 
 #map-button {
-	margin-top: 32rem;
+	margin-top: -20rem;
 	text-transform: capitalize;	
 	/*padding:1rem;*/
 	padding-left: 2rem;
 	padding-right: 2rem;
+
 }
 
 
@@ -484,7 +490,7 @@ footer h4 {
 	}
 
 	#map-button {
-	margin-top: 32rem;
+	margin-top: -10rem;
 	text-transform: capitalize;	
 	/*padding:1rem;*/
 /*	padding-left: 2rem;
