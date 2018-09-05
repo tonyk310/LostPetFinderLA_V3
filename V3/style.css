@@ -49,25 +49,7 @@ header {
 	/*box-shadow: inset 450px 00px 500px 50px #FFF;*/
 }
 
-#free-ebook {
-	background: linear-gradient(to right, transparent, white 100%), 
-	             url(./images/kissing-dog.jpg);
 
-	box-shadow: inset 46px 0px 63px 0px rgba(255,255,255,1);
-
-
-	background-attachment: center;
-	height: 40rem;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 90%;
-	margin: 0 auto;
-	
-	/*flip over y axis*/
-	/*-webkit-transform: scaleX(-1);*/
-
-}
 
 #signup {
 
@@ -97,8 +79,11 @@ header {
 	/*margin: 4rem;*/
 	/*margin: 0 auto;*/
 	margin-left: 15px;
-		box-shadow: 2px 4px 5px rgba(0,0,0,0.1);
+	box-shadow: 2px 4px 5px rgba(0,0,0,0.1);
+}
 
+.LPF-button:hover {
+	background-color: #dc3445;
 }
 
 #header-p {
@@ -235,7 +220,6 @@ header {
     padding-right: 4rem;
     margin-top: 3rem;
     background-color: #C8252C;
-
 }
 
 
@@ -263,18 +247,40 @@ header {
 .why-use-icon {
 	width: 64px;
 	text-align: center;
+	padding-top: 1rem;
 }
 
-#free-ebook {}
+#free-ebook {
+	background: linear-gradient(to right, transparent, white 100%), 
+	             url(./images/kissing-dog.jpg);
+
+	box-shadow: inset 46px 0px 63px 0px rgba(255,255,255,1);
+
+
+	background-attachment: center;
+	height: 40rem;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 90%;
+	margin: 0 auto;
+	
+	/*flip over y axis*/
+	/*-webkit-transform: scaleX(-1);*/
+
+}
 
 #ebook-elements {
-	padding-top: 11rem;
+	/*padding-top: 11rem;*/
 	font-family: 'PT Serif', serif;
 	font-weight: bold;
 	/*background: pink;*/
-	height: 40em;
+	/*height: 40em;*/
 	/*border: 4px solid pink;*/
 	/*background: salmon;*/
+	margin-top: 8rem;
+	margin-right: 0.5rem;
+	background: rgba(255,255,255,0.5);
 }
 
 #ebook-elements h3 {
@@ -423,7 +429,7 @@ footer h4 {
 
 
 .tip-box {
-	padding: 1rem;
+	/*padding: 1rem;*/
 }
 
 .tip-box p {
@@ -487,6 +493,7 @@ footer h4 {
 	}
 
 	#free-ebook {
+
 
 		box-shadow: none;
 		width: 100%;
