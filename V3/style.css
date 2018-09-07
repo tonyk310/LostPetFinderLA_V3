@@ -195,6 +195,8 @@ header {
 	line-height: 28px;
 	margin-top: 1rem;
 	text-transform: capitalize;
+		font-family: 'Roboto Slab', serif;
+	font-weight: 600;
 }
 
 #lost-and-found hr {
@@ -244,9 +246,15 @@ header {
 	font-weight: 600;
 }
 
+#why-use h5 {
+    font-family: 'Roboto Slab', serif;
+	font-weight: 600;
+}
+
 #why-use-padded-container {
 	padding-right: 7rem;
     padding-left: 7rem;
+    padding: 0 4rem;
 }
 
 .why-use-icon {
