@@ -61,13 +61,12 @@ header {
 }
 
 #header-h1 h1 {
-		/*font-family: 'helvetica';*/
 	
 	font-weight: 800;
     text-transform: uppercase;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
+
+    /*text-shadow: 2px 4px 3px rgba(0,0,0,0.1);*/
    	
-    /*margin-bottom: 5rem;*/
 
     font-size: 3rem;
 
@@ -89,7 +88,8 @@ header {
 #header-p {
 
 	font-size: 24px;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
+
+    /*text-shadow: 2px 4px 3px rgba(0,0,0,0.1);*/
 	
 	margin-top: 2rem;
     margin-bottom: 4rem;
@@ -168,6 +168,11 @@ header {
 	font-size: 1.1rem
 }
 
+#section-two span a {
+	color: #18681f;
+	text-decoration: underline;
+}
+
 /*LOST ANF FOUND*/
 
 #lost-and-found {
@@ -178,8 +183,8 @@ header {
 }
 
 #lost-and-found h2 {
-	font-family: 'PT Serif', serif;
-	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 600;
 	padding-bottom: 1rem;
 }
 
@@ -235,8 +240,8 @@ header {
 #why-use h2 {
 	margin-bottom: 3rem;
 	
-    font-family: 'PT Serif', serif;
-    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+	font-weight: 600;
 }
 
 #why-use-padded-container {
@@ -308,7 +313,10 @@ header {
 }
 
 #section-three h2 {
-	font-family: 'PT Serif', serif;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 600;
+
+
 }
 
 /*#about-us-section {
@@ -364,10 +372,12 @@ header {
 	margin-bottom: 1.25rem;
 	margin-bottom: 20px;
 	margin-top: 3rem;
+	cursor: pointer;
+
 }
 
 #about p,ul {
-	color: #555;
+	color: #444;
 	font-family: 'helvetica';
 	font-size: 18px;
 	font-weight:;
@@ -392,6 +402,8 @@ header {
     height: 40em;
     background: rgba(0,0,0,0.1);
     opacity: 1;
+    transition: 0.6s;
+
 }
 
 #map span:hover {
@@ -399,7 +411,7 @@ header {
     height: 40em;
     background: none;
     opacity: 0;
-    transition: 1s;
+    transition: 1.5s;
 
 
 }
@@ -440,8 +452,11 @@ header {
 
 #people-love-LPF h2 {
 	font-family: 'Roboto Slab', serif;
-		font-family: 'PT Serif', serif;
+	font-weight: 600;
 
+/*	font-family: 'Roboto Slab', serif;
+		font-family: 'PT Serif', serif;
+*/
 	font-weight: bold;
 	text-align: center;
 	padding-bottom: 2rem;
