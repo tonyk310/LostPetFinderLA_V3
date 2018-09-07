@@ -1,6 +1,6 @@
 html, body {
 	height: 100%;
-	color: #444;
+	color: #333;
 	/*font-family: 'Roboto', sans-serif;*/
 	font-family: helvetica;
 }
@@ -291,7 +291,7 @@ header {
 #section-three {
 	padding-top: 3rem;
 
-	/*background: #f9f9f9;*/
+	background: #f9f9f9;
 	/*background: #d0cfcf75;*/
 
 					/*this is the background color*/
@@ -309,6 +309,72 @@ header {
 
 #section-three h2 {
 	font-family: 'PT Serif', serif;
+}
+
+/*#about-us-section {
+	padding-bottom: 3rem;
+}
+
+
+
+#about-us-section h2{
+	font-family: 'PT Serif', serif;
+    font-weight: bold;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#about-us-section h3 {
+	text-align: center;
+}
+
+
+
+.about-us-text {
+	font-weight: 700;
+	margin: 0 5rem;
+	color: #333;
+}
+
+.about-us-text p{
+	font-family: "georgia";
+	font-weight: 500;
+	font-size: 18px;
+}*/
+
+#about {
+	font-family: 'Roboto Slab', serif;
+	margin: 3rem 0;
+
+}
+
+#about h2 {
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#about h3 {
+	font-weight: 600;
+
+		font-size: 24px;
+
+	line-height: 2rem;
+	margin-bottom: 1.25rem;
+	margin-bottom: 20px;
+	margin-top: 3rem;
+}
+
+#about p,ul {
+	color: #555;
+	font-family: 'helvetica';
+	font-size: 18px;
+	font-weight:;
+}
+
+.about-hidden {
+	display: none;
 }
 
 
@@ -523,5 +589,10 @@ footer h4 {
 	#ebook-elements-button {
 		display: block;
 	}
+
+	.about-us-text {
+		margin: 0;
+	
+}
 
 }
